@@ -1,0 +1,16 @@
+attribute,status,dataset_field,finding
+id,required,StockCode,Candidate only: verify stable unique product ID and variations
+title,required,Description,Candidate only; editorial and variant checks needed
+description,required,none,No verified full product description
+link,required,none,No live verified product landing URL
+image_link,required,none,No image URL
+availability,required,none,No current inventory/availability
+price,required,Price,Historic transaction price; not current online offer price
+brand,depends,none,Verify manufacturer/store brand
+gtin,depends,none,Use real GTIN if assigned; never guess
+mpn,depends,none,Manufacturer part number when applicable; SKU is not automatically MPN
+condition,depends,none,Verify product type / condition
+shipping,depends,none,Account settings/offer shipping needs verification
+google_product_category,optional / may aid classification,none,Needs category enrichment
+item_group_id / variant attributes,depends,none,Verify variants
+identifier_exists,depends,none,Use no only if no assigned unique identifiers

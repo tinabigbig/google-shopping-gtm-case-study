@@ -1,0 +1,4 @@
+scenario,spend_gbp,modelled_revenue_gbp,contribution_after_spend_gbp,break_even_roas_at_assumptions
+base,10000.0,16666.67,-4375.0,2.96
+high,10000.0,51428.57,13142.86,2.22
+low,10000.0,3333.33,-9300.0,4.76

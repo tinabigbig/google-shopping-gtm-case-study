@@ -1,0 +1,4 @@
+segment,customer_count,customer_revenue_gbp,customer_share_percent
+one_invoice,1623,560272.56,27.61
+two_to_four_invoices,2094,2227773.37,35.62
+five_plus_invoices,2161,14586758.33,36.76

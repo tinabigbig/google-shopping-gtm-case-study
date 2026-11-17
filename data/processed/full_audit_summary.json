@@ -1,0 +1,116 @@
+{
+  "source": "UCI Online Retail II; cleaned as in scripts/clean.py",
+  "cleaning": {
+    "raw_rows": 1067371,
+    "overlap_rows_removed": 22523,
+    "exact_repeat_rows_removed": 11812,
+    "clean_rows": 1033036,
+    "sale_lines": 1007913,
+    "cancellation_lines": 19104
+  },
+  "sale_lines": 1007913,
+  "stock_codes_full": 4917,
+  "gross_sale_line_value_gbp": 20476260.45,
+  "provisional_class_counts": {
+    "merchandise_candidate": 4880,
+    "non_merchandise_candidate": 18,
+    "manual_review": 19
+  },
+  "provisional_class_gross_sales_gbp": {
+    "merchandise_candidate": 19631034.8,
+    "non_merchandise_candidate": 833460.68,
+    "manual_review": 11764.97
+  },
+  "description_flags": {
+    "different_normalized_descriptions": 555,
+    "multiple_raw_nonblank_descriptions": 623,
+    "formatting_only_variants": 68
+  },
+  "review_queue_codes": 591,
+  "top10_codes_by_net": [
+    {
+      "stock_code": "22423",
+      "representative_description": "REGENCY CAKESTAND 3 TIER",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 314045.02
+    },
+    {
+      "stock_code": "DOT",
+      "representative_description": "DOTCOM POSTAGE",
+      "classification": "non_merchandise_candidate",
+      "net_sales_gbp": 309844.1
+    },
+    {
+      "stock_code": "85123A",
+      "representative_description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 248337.61
+    },
+    {
+      "stock_code": "85099B",
+      "representative_description": "JUMBO BAG RED RETROSPOT",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 178400.52
+    },
+    {
+      "stock_code": "47566",
+      "representative_description": "PARTY BUNTING",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 147079.73
+    },
+    {
+      "stock_code": "84879",
+      "representative_description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 128550.42
+    },
+    {
+      "stock_code": "22086",
+      "representative_description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 116298.59
+    },
+    {
+      "stock_code": "POST",
+      "representative_description": "POSTAGE",
+      "classification": "non_merchandise_candidate",
+      "net_sales_gbp": 110430.41
+    },
+    {
+      "stock_code": "79321",
+      "representative_description": "CHILLI LIGHTS",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 79905.13
+    },
+    {
+      "stock_code": "22197",
+      "representative_description": "SMALL POPCORN HOLDER",
+      "classification": "merchandise_candidate",
+      "net_sales_gbp": 78903.62
+    }
+  ],
+  "budget_scenarios": {
+    "low": {
+      "spend_gbp": "10000",
+      "modeled_ad_attributed_revenue_gbp": "3333.34",
+      "modeled_incremental_contribution_after_ad_spend_gbp": "-9300.00"
+    },
+    "base": {
+      "spend_gbp": "10000",
+      "modeled_ad_attributed_revenue_gbp": "16666.66",
+      "modeled_incremental_contribution_after_ad_spend_gbp": "-4375.00"
+    },
+    "high": {
+      "spend_gbp": "10000",
+      "modeled_ad_attributed_revenue_gbp": "51428.57",
+      "modeled_incremental_contribution_after_ad_spend_gbp": "13142.86"
+    }
+  },
+  "cautions": [
+    "A stock code is not a validated live catalog product; classifications need merchant review.",
+    "Historical prices are not current feed prices; no URLs, images, stock or verified identifiers.",
+    "No observed marketing spend, clicks, conversions, incrementality or offline journeys.",
+    "Scenario AOV of \u00a330 to \u00a345 describes a consumer launch; the observed median order is about \u00a3300 from trade buyers.",
+    "Modeled budget is illustrative, not a forecast or spend recommendation."
+  ]
+}

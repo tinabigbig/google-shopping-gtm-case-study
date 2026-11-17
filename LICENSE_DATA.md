@@ -1,0 +1,1 @@
+Source workbook is excluded. Obtain UCI Online Retail II from https://archive.ics.uci.edu/dataset/502/online+retail+ii and consult its published license/citation terms before redistributing data-derived tables. This is an independent educational analysis, not an official Google case study.

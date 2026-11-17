@@ -1,0 +1,65 @@
+{
+  "source": "UCI Online Retail II, both worksheets, UK online gift retailer, Dec 2009 to Dec 2011",
+  "cleaning": {
+    "raw_rows": 1067371,
+    "overlap_rows_removed": 22523,
+    "exact_repeat_rows_removed": 11812,
+    "clean_rows": 1033036,
+    "sale_lines": 1007913,
+    "cancellation_lines": 19104
+  },
+  "measurement_scope": "Sale lines after removing the sheet overlap and exact repeats. Gross sale-line value is before cancellations; product rankings are net of cancellations and exclude non-product codes.",
+  "sale_lines": 1007913,
+  "unique_stock_codes": 4917,
+  "unique_sale_invoices": 40077,
+  "unique_identified_customers": 5878,
+  "repeat_customer_count_two_plus_invoices": 4255,
+  "repeat_customer_rate_percent": 72.39,
+  "gross_sale_line_value_gbp": 20476260.45,
+  "independent_invoice_sum_gbp": 20476260.45,
+  "cancellation_value_gbp": -1462050.61,
+  "non_product_code_sales_gbp": 832413.56,
+  "merchandise_net_of_cancellations_gbp": 18927648.2,
+  "top_10_merchandise_share_of_merchandise_net_percent": 7.6,
+  "order_size": {
+    "median_invoice_gbp": 302.22,
+    "mean_invoice_gbp": 510.92,
+    "share_of_sale_lines_with_12_plus_units_percent": 25.15,
+    "reading": "Mostly wholesale buyers placing trade-sized orders, not single consumer baskets."
+  },
+  "sale_lines_by_year": {
+    "2009": 43453,
+    "2010": 480572,
+    "2011": 483888
+  },
+  "country_counts_top_5": [
+    [
+      "United Kingdom",
+      926038
+    ],
+    [
+      "EIRE",
+      17154
+    ],
+    [
+      "Germany",
+      16432
+    ],
+    [
+      "France",
+      13639
+    ],
+    [
+      "Netherlands",
+      5085
+    ]
+  ],
+  "valid_sale_lines_without_customer_id": 228488,
+  "limitations": [
+    "Gross sale-line value is not net recognized revenue.",
+    "Missing customer IDs are excluded from customer segmentation and repeat rate.",
+    "Distinct invoices stand in for orders; no customer identity resolution.",
+    "Stock codes and descriptions are not a Merchant Center feed.",
+    "No ad spend, clicks, conversions, stores or offline journeys are observed."
+  ]
+}
